@@ -1,0 +1,60 @@
+.div{
+    height: 20vh;
+    width: 20%;
+    background-image: linear-gradient(to right, #FF7500 , #0096B3 , #00D6FF);
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 15%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 8px #888888;
+}
+.displaytime{
+    color: white;
+    text-align: center;
+}
+.div1{
+    text-align: center;
+}
+.fa-pause{
+    color: #FF7500;
+    font-size: 2.5rem;
+    margin-right: 10px;
+    text-shadow: 2px 2px 4px white;
+}
+.fa-play{
+    color: #017187;
+    font-size: 2.5rem;
+    margin-right: 10px;
+    text-shadow: 2px 2px 4px white;
+}
+.fa-repeat{
+    color: #00D6FF;
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px white;
+}
+@media(max-width: 1025px) {
+    .div{
+        height: 25vh;
+        width: 25%;
+    }
+}
+@media(max-width: 769px) {
+    .div{
+        width: 30%;
+    }
+}
+@media(max-width: 426px) {
+    .div{
+        width: 50%;
+    }    
+}
+@media(max-width: 376px) {
+    .div{
+        width: 60%;
+    }    
+}
+@media(max-width: 321px) {
+    .div{
+        width: 70%;
+    }    
+}
